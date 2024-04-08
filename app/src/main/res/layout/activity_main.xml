@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <TextView android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:textSize="40sp"
+        android:text="Medipark"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <include
+            android:id="@+id/mode_controller"
+            layout="@layout/controller_module"/>
+        <include
+            android:id="@+id/energy_controller"
+            layout="@layout/controller_module"/>
+        <include
+            android:id="@+id/frequency_controller"
+            layout="@layout/controller_module"/>
+        <include
+            android:id="@+id/pulse_width_controller"
+            layout="@layout/controller_module"/>
+    </LinearLayout>
+
+
+</LinearLayout>

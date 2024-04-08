@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayoutStyle">
+    <TextView
+        android:id="@+id/TextView"
+        style="@style/TextViewStyle"/>
+    <com.example.medipark_controller.Picker
+        android:id="@+id/Picker"
+        style="@style/PickerStyle"/>
+</LinearLayout>

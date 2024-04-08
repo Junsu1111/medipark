@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextViewStyle">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="PickerStyle">
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">330dp</item>
+        <item name="android:layout_margin">50dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="LinearLayoutStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
