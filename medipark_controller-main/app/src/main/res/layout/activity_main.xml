@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/highest_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        android:background="@color/black">
+        <TextView android:id="@+id/text"
+            android:layout_width="950dp"
+            android:layout_height="100dp"
+            android:layout_margin="32dp"
+            android:paddingLeft="40dp"
+            android:paddingTop="18dp"
+            android:textSize="55sp"
+            android:fontFamily="@font/medipark_font"
+            android:text="Mellas-Ayag"
+            android:textColor="@color/white"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="930dp">
+            <ImageButton
+                android:id="@+id/menu_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/menu_icon"
+                app:tint="@color/black"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_button"/>
+            <ImageButton
+                android:id="@+id/save_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/save_icon"
+                app:tint="@color/black"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_button"/>
+            <ImageButton
+                android:id="@+id/setting_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/setting_icon"
+                app:tint="@color/black"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_button"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/controller_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="35dp">
+        <com.example.medipark_controller.Controller
+            android:id="@+id/mode_controller"
+            style="@style/LinearLayoutStyle"/>
+        <com.example.medipark_controller.Controller
+            android:id="@+id/energy_controller"
+            style="@style/LinearLayoutStyle"/>
+        <com.example.medipark_controller.Controller
+            android:id="@+id/frequency_controller"
+            style="@style/LinearLayoutStyle"/>
+        <com.example.medipark_controller.Controller
+            android:id="@+id/pulse_width_controller"
+            style="@style/LinearLayoutStyle"/>
+    </LinearLayout>
+
+</LinearLayout>
