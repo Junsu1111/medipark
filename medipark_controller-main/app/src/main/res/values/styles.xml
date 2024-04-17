@@ -6,6 +6,12 @@
         <item name="android:orientation">vertical</item>
         <item name="android:gravity">center</item>
     </style>
-
+    <!-- res/values/styles.xml -->
+    <style name="FullscreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
 
 </resources>

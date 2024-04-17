@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Support beam brigthness"
+        android:textSize="27sp"
+        android:paddingLeft="14dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/marking_font"
+        android:textColor="@color/black" />
+    
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@drawable/seekbar_track"
+        android:thumb="@drawable/seekbar_thumb"
+        android:max="100"
+        android:progress="50"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beap sound"
+        android:textSize="27sp"
+        android:paddingLeft="14dp"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/marking_font"
+        android:textColor="@color/black"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@drawable/seekbar_track"
+        android:thumb="@drawable/seekbar_thumb"
+        android:max="100"
+        android:progress="50"
+        android:layout_marginBottom="30dp" />
+
+
+
+</LinearLayout>
